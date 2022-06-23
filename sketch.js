@@ -1,14 +1,14 @@
 var sea,ship;
-var seaImg,shipImg;
+var seaImg,shipImg1;
 
 function preload(){
   // Descomente o código para adicionar animação ao navio
   seaImg = loadImage("sea.png");
  // shipImg1 = loadAnimation("ship-1.png");
-  shipImg1 = loadAnimation("ship-1.png");
-  shipImg1 = loadAnimation("ship-1");
+ // shipImg1 = loadAnimation("ship-1.png");
+ // shipImg1 = loadAnimation("ship-1");
   shipImg1 = loadAnimation("ship-1.png","ship-2.png","ship-1.png","ship-2.png");
-  shipImg1 = loadAnimation("ship-1","ship-2","ship-1","ship-2");
+ // shipImg1 = loadAnimation("ship-1","ship-2","ship-1","ship-2");
   
   
 }
